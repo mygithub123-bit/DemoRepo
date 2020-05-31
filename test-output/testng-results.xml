@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="477704" started-at="2019-05-26T02:58:33Z" finished-at="2019-05-26T03:06:31Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="477704" started-at="2019-05-26T02:58:33Z" finished-at="2019-05-26T03:06:31Z">
+      <class name="com.Tests.VerifyAccountValidation">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="setupReport" is-config="true" duration-ms="612" started-at="2019-05-26T08:28:32Z" finished-at="2019-05-26T08:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="startBrowser" is-config="true" duration-ms="15747" started-at="2019-05-26T08:28:33Z" finished-at="2019-05-26T08:28:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="verifyAccountvalidation()[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="verifyAccountvalidation" duration-ms="459398" started-at="2019-05-26T08:28:49Z" finished-at="2019-05-26T08:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountvalidation -->
+        <test-method status="PASS" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="tearDownReport" is-config="true" duration-ms="2493" started-at="2019-05-26T08:36:28Z" finished-at="2019-05-26T08:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccountvalidation status=SUCCESS method=VerifyAccountValidation.verifyAccountvalidation()[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-05-26T08:36:31Z" finished-at="2019-05-26T08:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:com.Tests.VerifyAccountValidation@a67c67e]" name="closeAll" is-config="true" duration-ms="1015" started-at="2019-05-26T08:36:31Z" finished-at="2019-05-26T08:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Tests.VerifyAccountValidation -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
